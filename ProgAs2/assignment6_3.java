@@ -8,6 +8,7 @@ public class assignment6_3 {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Please enter an integer: ");
+
         int num = input.nextInt();
         boolean isPal = isPalindrome(num);
         if (isPal == true) {
